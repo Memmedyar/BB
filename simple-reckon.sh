@@ -11,7 +11,7 @@ run_subfinder() {
 run_httpx() {
     mkdir ./$domain/httpx
     echo "running httpx with cool options..."
-    httpx -title -tech-detect -silent -retries 1 -sc -probe -follow-redirects -cl -o ./$domain/httpx/$domain-httpx.txt -list ./$domain/subfinder/subdomains-$domain.txt && cat ./$domain/httpx/$domain-httpx.txt | grep -v "FAILED" > ./$domain/httpx/$domain-httpx-clean.txt
+    httpx -title -tech-detect -silent -fc 403 -retries 1 -sc -probe -follow-redirects -cl -o ./$domain/httpx/$domain-httpx.txt -list ./$domain/subfinder/subdomains-$domain.txt && cat ./$domain/httpx/$domain-httpx.txt | grep -v "FAILED" > ./$domain/httpx/$domain-httpx-clean.txt
 }
 
 # Function to run dirseach
@@ -20,7 +20,7 @@ mkdir ./$domain/dirsearch
 cat ./$domain/httpx/$domain-httpx-clean.txt | cut -d " " -f 1 > ./$domain/dirsearch/urls-to-dirsearch
 echo "Starting dirsearch..."
 
-dirsearch -l $(pwd)/$domain/dirsearch/urls-to-dirsearch -x 404 -o $(pwd)/$domain/dirsearch/dirsearch-results.txt
+dirsearch.py -l $(pwd)/$domain/dirsearch/urls-to-dirsearch -x 404,403 -o $(pwd)/$domain/dirsearch/dirsearch-results.txt
 }
 
 # Main function
