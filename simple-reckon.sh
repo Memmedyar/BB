@@ -20,7 +20,7 @@ mkdir ./$domain/dirsearch
 cat ./$domain/httpx/$domain-httpx-clean.txt | cut -d " " -f 1 > ./$domain/dirsearch/urls-to-dirsearch
 echo "Starting dirsearch..."
 
-dirsearch.py -l $(pwd)/$domain/dirsearch/urls-to-dirsearch -x 404,403 -o $(pwd)/$domain/dirsearch/dirsearch-results.txt
+dirsearch.py -l $(pwd)/$domain/dirsearch/urls-to-dirsearch --exclude-sizes=0 -o $(pwd)/$domain/dirsearch/dirsearch-results.txt
 }
 
 # Main function

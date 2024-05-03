@@ -1,0 +1,15 @@
+# Dirsearch started Tue Apr 23 12:39:56 2024 as: /opt/dirsearch/dirsearch.py -u https://globalsms.rabita.az/ -w /root/custom-wl/BB/alll.txt
+
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../../../../../windows/win.ini
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../windows/win.ini
+404     2KB  https://globalsms.rabita.az/..../..../..../..../..../..../..../..../etc/passwd
+403   312B   https://globalsms.rabita.az/../../../../../../../../etc/passwd
+403   312B   https://globalsms.rabita.az/..%2f
+404     2KB  https://globalsms.rabita.az/.../.../.../.../.../.../.../.../.../etc/passwd
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../../../../../../../etc/passwd
+404     2KB  https://globalsms.rabita.az/..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd
+200     3KB  https://globalsms.rabita.az/?cache=false&quickCart=true
+302   124B   https://globalsms.rabita.az/CMSPages/Staging/SyncServer.asmx/ProcessSynchronizationTaskData    -> REDIRECTS TO: /error/
+302   124B   https://globalsms.rabita.az/Catalog/BlobHandler.ashx    -> REDIRECTS TO: /error/
+302   124B   https://globalsms.rabita.az/CMSPages/GetDocLink.ashx    -> REDIRECTS TO: /error/
+302   124B   https://globalsms.rabita.az/DnnImageHandler.ashx    -> REDIRECTS TO: /error/

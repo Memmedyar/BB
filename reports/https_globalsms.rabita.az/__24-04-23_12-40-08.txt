@@ -1,0 +1,30 @@
+# Dirsearch started Tue Apr 23 12:40:58 2024 as: /opt/dirsearch/dirsearch.py -u https://globalsms.rabita.az/ -w /root/custom-wl/BB/alll.txt --exclude-sizes=124B
+
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../windows/win.ini
+403   312B   https://globalsms.rabita.az/../../../../../../../../etc/passwd
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../../../../../../../etc/passwd
+403   312B   https://globalsms.rabita.az/..%2f
+404     2KB  https://globalsms.rabita.az/..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd
+403   312B   https://globalsms.rabita.az/../../../../../../../../../../../../../../windows/win.ini
+404     2KB  https://globalsms.rabita.az/.../.../.../.../.../.../.../.../.../etc/passwd
+404     2KB  https://globalsms.rabita.az/..../..../..../..../..../..../..../..../etc/passwd
+200     3KB  https://globalsms.rabita.az/?cache=false&quickCart=true
+404     2KB  https://globalsms.rabita.az/api-third-party/download/extdisks../etc/passwd
+403   312B   https://globalsms.rabita.az/en/../../../../../../../../windows/win.ini
+403   312B   https://globalsms.rabita.az/en/../../../../../../../../etc/passwd
+404     2KB  https://globalsms.rabita.az/en/..../..../..../..../..../..../..../..../etc/passwd
+403   312B   https://globalsms.rabita.az/en/../../../../../../../../../../../../../../../../etc/passwd
+404     2KB  https://globalsms.rabita.az/en.
+404     2KB  https://globalsms.rabita.az/en/..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd
+404     2KB  https://globalsms.rabita.az/en/.../.../.../.../.../.../.../.../etc/passwd
+301   157B   https://globalsms.rabita.az/error    -> REDIRECTS TO: https://globalsms.rabita.az/error/
+200    31KB  https://globalsms.rabita.az/favicon.ico
+301   157B   https://globalsms.rabita.az/fonts    -> REDIRECTS TO: https://globalsms.rabita.az/fonts/
+301   154B   https://globalsms.rabita.az/js    -> REDIRECTS TO: https://globalsms.rabita.az/js/
+301   156B   https://globalsms.rabita.az/main    -> REDIRECTS TO: https://globalsms.rabita.az/main/
+301   156B   https://globalsms.rabita.az/pics    -> REDIRECTS TO: https://globalsms.rabita.az/pics/
+404     2KB  https://globalsms.rabita.az/saas./resttosaasservlet
+404     2KB  https://globalsms.rabita.az/smartnews/lib/..../..../..../..../..../..../..../..../etc/passwd
+301   154B   https://globalsms.rabita.az/ws    -> REDIRECTS TO: https://globalsms.rabita.az/ws/
+301   159B   https://globalsms.rabita.az/sendsms    -> REDIRECTS TO: https://globalsms.rabita.az/sendsms/
+301   159B   https://globalsms.rabita.az/smslist    -> REDIRECTS TO: https://globalsms.rabita.az/smslist/
